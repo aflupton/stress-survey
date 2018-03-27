@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <title>Stress Survey</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+      <h1>Stress Survey</h1>
+      </div>
+      <form id="userInput">
+        <div class="form-group">
+          <p>Select all warning signs that negatively affect you:</p>
+          <input type="checkbox" name="warning-signs" value="Loss of sleep">Loss of sleep<br>
+          <input type="checkbox" name="warning-signs" value="Feeling overwhelmed">Feeling overwhelmed<br>
+          <input type="checkbox" name="warning-signs" value="Mood swings">Mood swings<br>
+          <input type="checkbox" name="warning-signs" value="Low energy">Low energy<br>
+          <input type="checkbox" name="warning-signs" value="Your ability to focus at school or work has decreased">Your ability to focus at school or work has decreased<br>
+        </div>
+        <div class="form-group">
+          <p>Select all symptoms you are experiencing:</p>
+          <input type="checkbox" name="health-symptoms" value="High blood pressure">High blood pressure<br>
+          <input type="checkbox" name="health-symptoms" value="Anxiety">Anxiety<br>
+          <input type="checkbox" name="health-symptoms" value="Changes in eating habits">Changes in eating habits<br>
+          <input type="checkbox" name="health-symptoms" value="Chronic Illness">Chronic Illness<br>
+          <input type="checkbox" name="health-symptoms" value="Upset stomache">Upset stomache<br>
+        </div>
+        <div class="form-group">
+          <p>Select all coping mechanisms that you are currently using.</p>
+          <input type="checkbox" name="coping-mechanisms" value="Meditate">Meditate<br>
+          <input type="checkbox" name="coping-mechanisms" value="Socializing with friends">Socializing with friends<br>
+          <input type="checkbox" name="coping-mechanisms" value="Petting animals">Petting animals<br>
+          <input type="checkbox" name="coping-mechanisms" value="Physical activity">Physical activity<br>
+          <input type="checkbox" name="coping-mechanisms" value="Getting more sleep">Getting more sleep<br>
+        </div>
+
+        <button type="submit" class="btn btn-info">Submit</button>
+      </form>
+      <div class="output" id="output-1">
+        <p class="bolding"><b>You show the following warning signs of stress:</b></p>
+      </div>
+      <br>
+      <div class="output" id="output-2">
+        <p class="bolding"><b>You are experiencing the following symptoms of stress:</b></p>
+      </div>
+      <div class="output" id="output-3">
+        <p class="bolding"><b>You use the following coping techniques to treat stress:</b></p>
+      </div>
+      <div class="output" id="output-4">
+        <h3>Recommendations for treating stress:</h3>
+        <ul>
+          <li> <a href="https://cmbm.org/blog/5-ways-relieve-stress/">5 Ways to Relieve Stress.</a></li>
+          <li><a href="https://www.webmd.com/balance/guide/blissing-out-10-relaxation-techniques-reduce-stress-spot#1">How to reduce stress.</a></li>
+          <li><a href="">https://www.helpguide.org/articles/stress/stress-management.htm>Stress management.</a></li>
+        </ul>
+      </div>
+      <div class="output" id="output-5">
+        <h3>You're already doing great at reducing stress, keep up the good work.</h3>
+      </div>
+
+      <div class="output" id="output-6">
+        <h3>It looks like you are doing a great job to reduce your stress but still show a lot symptoms of stress. We can recommend some resources for treating stress:</h3>
+        <ul>
+          <li> <a href="https://cmbm.org/blog/5-ways-relieve-stress/">5 Ways to Relieve Stress.</a></li>
+          <li><a href="https://www.webmd.com/balance/guide/blissing-out-10-relaxation-techniques-reduce-stress-spot#1">How to reduce stress.</a></li>
+          <li><a href="">https://www.helpguide.org/articles/stress/stress-management.htm>Stress management.</a></li>
+        </ul>
+        <p>If it will not work don't hesitate to go to your doctor.</p>
+      </div>
+    </div>
+
+  </body>
+</html>

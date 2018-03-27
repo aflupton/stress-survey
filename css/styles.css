@@ -1,0 +1,12 @@
+.output {
+  display: none;
+  margin: 20px;
+}
+
+p.output {
+  margin: 10px;
+}
+.jumbotron {
+  text-align: center;
+  background-color: #F0EDE5;
+}
